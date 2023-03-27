@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url(pic.jpg);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+}
+.nav ul{
+    display:flex;
+    list-style-type:none;
+    margin-left: 500px;
+    color: aliceblue;
+        
+}
+.nav ul li{
+    padding: 15px;
+}
+
+
+
+.nav h1{
+    color: aliceblue;
+    margin-left: 25px;
+            
+}
+.abcd{
+    height: 300px;
+    width: 500px;
+    background-color: transparent;
+    margin-top: 150px;
+    margin-left: 150px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(251, 235, 5) , 0 0 15px rgba(255, 1, 1, 0.975);
+}
+.abcd button{
+    background-color: orange;
+    padding: 8px;
+    border-radius:10px ;
+    border: none;
+}
+.dog{
+    
+    position: relative;
+    left: 850px;
+    bottom: 450px;
+}
